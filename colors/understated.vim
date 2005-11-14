@@ -16,9 +16,9 @@ hi Normal       ctermfg=Grey ctermbg=Black guifg=Grey guibg=Black
 hi Cursor       ctermfg=Black ctermbg=White guifg=Black guibg=White
 hi CursorIM	    ctermfg=Black ctermbg=White guifg=Black guibg=White
 "hi Directory	
-"hi DiffAdd		
-"hi DiffChange	
-"hi DiffDelete	
+hi DiffAdd		ctermbg=DarkGreen guibg=DarkGreen ctermfg=White guifg=White
+hi DiffChange	ctermbg=DarkYellow guibg=DarkYellow ctermfg=White guifg=White
+hi DiffDelete	ctermbg=DarkRed guibg=DarkRed ctermfg=White guifg=White
 hi DiffText	    ctermbg=DarkYellow guibg=DarkYellow ctermfg=White guifg=White
 hi ErrorMsg	    ctermbg=DarkRed guibg=DarkRed
 "hi VertSplit	
@@ -30,7 +30,7 @@ hi ErrorMsg	    ctermbg=DarkRed guibg=DarkRed
 "hi MoreMsg		
 "hi NonText		
 "hi Question	
-"hi Search		
+hi Search		ctermfg=White guifg=White ctermbg=DarkCyan guibg=DarkCyan
 "hi SpecialKey	
 hi StatusLine	ctermfg=Black guifg=Black ctermbg=Grey guibg=Grey
 hi StatusLineNC	ctermfg=Black guifg=Black ctermbg=Grey guibg=Grey
