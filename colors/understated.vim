@@ -19,7 +19,7 @@ hi CursorIM	    ctermfg=Black ctermbg=White guifg=Black guibg=White
 "hi DiffAdd		
 "hi DiffChange	
 "hi DiffDelete	
-"hi DiffText	
+hi DiffText	    ctermbg=DarkYellow guibg=DarkYellow ctermfg=White guifg=White
 hi ErrorMsg	    ctermbg=DarkRed guibg=DarkRed
 "hi VertSplit	
 "hi Folded		
@@ -32,8 +32,8 @@ hi ErrorMsg	    ctermbg=DarkRed guibg=DarkRed
 "hi Question	
 "hi Search		
 "hi SpecialKey	
-"hi StatusLine	
-"hi StatusLineNC	
+hi StatusLine	ctermfg=Black guifg=Black ctermbg=Grey guibg=Grey
+hi StatusLineNC	ctermfg=Black guifg=Black ctermbg=Grey guibg=Grey
 "hi Title		
 hi Visual		ctermfg=DarkGrey guifg=DarkGrey ctermbg=White guibg=White
 hi VisualNOS    ctermfg=DarkGrey guifg=DarkGrey ctermbg=White guibg=White	
@@ -50,9 +50,9 @@ hi Identifier   ctermfg=DarkCyan guifg=DarkCyan cterm=bold gui=bold
 hi Statement	ctermfg=DarkGreen guifg=DarkGreen cterm=bold gui=bold
 hi PreProc	    ctermfg=DarkGreen guifg=DarkGreen cterm=underline gui=underline
 hi Type	    	ctermfg=DarkCyan guifg=DarkCyan cterm=underline gui=underline
-hi Special	    ctermfg=Blue guifg=Blue
+hi Special	    ctermfg=DarkYellow guifg=DarkYellow
 hi Underlined	ctermfg=White guifg=White cterm=underline gui=underline
 hi Ignore		ctermfg=DarkGrey guifg=DarkGrey cterm=bold gui=bold
-hi Error		ctermbg=Red guibg=Red
+hi Error		ctermbg=DarkRed guibg=DarkRed
 hi Todo	    	ctermfg=Black guifg=Black ctermbg=DarkYellow guibg=DarkYellow
 
