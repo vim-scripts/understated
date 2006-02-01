@@ -1,6 +1,6 @@
 " High Def:     Color file for sensitive eyes.
 " Maintainer:   Adam Blinkinsop <blinks@acm.org>
-" Last Change:  2005 Nov 14  
+" Last Change:  2006 Feb 1
 " URL:		    http://blinkinblogs.net
 
 set background=dark
